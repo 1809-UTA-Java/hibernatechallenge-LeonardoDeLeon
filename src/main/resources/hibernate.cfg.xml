@@ -6,10 +6,10 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.url">
-			jdbc:oracle:thin:@192.168.56.105:1521:xe
+			jdbc:oracle:thin:@oracle-instance1.cplzhxlkxjj9.us-west-1.rds.amazonaws.com:1521:orcl
 		</property>
-		<property name="hibernate.connection.username">bank</property>
-		<property name="hibernate.connection.password">password13</property>
+		<property name="hibernate.connection.username">ers</property>
+		<property name="hibernate.connection.password">password02</property>
 		<property name="hibernate.connection.driver_class">
 			oracle.jdbc.driver.OracleDriver
 		</property>
@@ -17,7 +17,7 @@
 			org.hibernate.dialect.Oracle10gDialect
 		</property>
 		
-		<mapping resource="BankUsers.hbm.xml"></mapping>
-		<mapping class="com.revature.model.BankAccounts"></mapping>
+		<mapping resource="Users.hbm.xml"></mapping>
+		<mapping class="com.revature.model.Users"></mapping>
 	</session-factory>
 </hibernate-configuration>

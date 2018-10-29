@@ -6,6 +6,8 @@
 	<artifactId>hibernatechallenge-LeonardoDeLeon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<name>HibernateERS</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
